@@ -1,2 +1,2 @@
-# Tribute to Jennifer Douda
+# Tribute to Jennifer Doudna
 # Project for FreeCodeCamp
