@@ -2,11 +2,11 @@
 
 
 #main {
-  height: 200px;
-  background-color: salmon;
+  height: autp;
+
 }
 
-@media (max-width: 50px) {
+@media (max-width: 500px) {
     #main {
         margin: 0;
     }
@@ -14,12 +14,12 @@
 
 #title {
   background-color: salmon;
-  width: inherit;
+  max-width: 100%;
 }
 
 #image {
-    width:100%;
-    height:20%;
+    height: auuto;
+    max-width: 100%;
 }
 
 #img-div {
@@ -28,11 +28,15 @@ border-radius: 25px;
 border: 5px solid gray ;
 background: gray;
 padding: 20px;
-width: 96%;     
-height: 60%;
-vertical-align:;
+max-width: 100%;     
+height: auto;
 font-size:30px;
 
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
 }
 
 h1,
@@ -47,20 +51,19 @@ h2 {
     font-size:20px;
 }
 
-@media (max-width: 50px) {
+@media (max-width: 100%) {
     h1, h2 {
         margin: 0;
     }
 }
 
 #tribute-info {
-  width: inherit;
+  max-width: 100%;
   margin-left: 80px;
   margin-right: 80px;
 }
 
 #tribute-link {
     margin-left: 5px;
-    margin-right: 40px;
-    width: inherit;
+    width: 100%;
 }
